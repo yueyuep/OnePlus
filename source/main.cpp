@@ -1,13 +1,10 @@
 #include <iostream>
-
+#include "main.h"
 using namespace std;
 
 /*
  * 函数申明
  * */
-void helloWord();
-int testcase1();
-void testcase2();
 
 int main() {
     helloWord();
