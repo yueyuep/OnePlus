@@ -1,17 +1,12 @@
 #include <iostream>
-#include "main.h"
+#include "variable_using.h"
+
 using namespace std;
 
 /*
  * 函数申明
  * */
 
-int main() {
-    helloWord();
-    testcase1();
-    testcase2();
-
-}
 
 void helloWord() {
     cout << "hello word!" << endl;
@@ -37,3 +32,8 @@ void testcase2() {
     cout << "r1:" << r1 << "\tr2:" << r2 << endl;
 
 }
+
+int add(int a, int b) {
+    return a + b;
+}
+
