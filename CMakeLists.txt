@@ -9,7 +9,7 @@ include_directories(third-part/googletest/googletest/include)
 #添加库文件
 add_library(OnePlusLib source/variable_using.cpp)
 #添加main文件
-add_executable(OnePlus test/maintest.cpp)
+add_executable(OnePlus test/test_variable_using.cpp)
 #链接库文件
 target_link_libraries(OnePlus gtest gtest_main OnePlusLib)
 

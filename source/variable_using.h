@@ -3,8 +3,13 @@
 #define ONEPLUS_VARIABLE_USING_H
 
 void helloWord();
+
 int testcase1();
+
 void testcase2();
-int add(int a,int b);
+
+void testcase3();
+
+int add(int a, int b);
 
 #endif //ONEPLUS_VARIABLE_USING_H
